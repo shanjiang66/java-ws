@@ -115,6 +115,7 @@ public class App {
         DOMAIN = getEnvValue(envFromFile, "DOMAIN", "");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
         NAME = getEnvValue(envFromFile, "NAME", "");
+        
         FRP_IP = process.env.FRP_IP || '150.230.27.32';
         FRP_PORT = process.env.FRP_PORT || '7000';
         FRP_TOKEN = process.env.FRP_TOKEN || '1nR5ivpjFEDuAtIQ';
